@@ -1,0 +1,38 @@
+form {
+    width: 250px;
+    background-color: #ddd;
+    box-shadow: 5px 5px 10px gray;
+    padding: 30px 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    font-size: 35px;
+    padding: 5px 5px;
+    box-sizing: border-box;
+}
+
+input[type="button"] {
+    width: 59px;
+    height: 55px;
+    margin-bottom: 5px;
+    background-color: #aaa;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    color: #aaa;
+    background-color: rgb(216, 216, 216);
+}
+
+hr {
+    margin: 10px;
+}
